@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sitio en construcción</title>
+  <link rel="icon" href="logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caladea&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --sfondo: #000000;
+      --testo: #ffffff;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    html, body { height: 100%; }
+
+    body {
+      background: var(--sfondo);
+      color: var(--testo);
+      /* Cambria se installato sul dispositivo, altrimenti Caladea (gratuito, identico nelle proporzioni) */
+      font-family: Cambria, "Caladea", Georgia, serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 2rem;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    img {
+      width: min(280px, 70vw);
+      height: auto;
+    }
+
+    p {
+      font-size: 1.1rem;
+      letter-spacing: 0.02em;
+      opacity: 0.8;
+    }
+  </style>
+</head>
+<body>
+  <img src="logo.png" alt="Logo">
+  <p>Sitio en construcción</p>
+</body>
+</html>
